@@ -46,7 +46,7 @@ article {
   line-height: 15px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
   article {
     flex-direction: column;
   }
@@ -56,9 +56,13 @@ article {
     order: 1;
     height: 200px;
     width: 100%;
+    max-width: 400px;
   }
 
   .articleinfo {
     width: 100%;
+  }
+  .articleinfo p {
+    line-height: 20px;
   }
 }
