@@ -26,6 +26,7 @@ article {
   background-size: cover;
   background-position: center;
   display: block;
+  height: 350px;
 }
 
 .articleinfo {
